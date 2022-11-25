@@ -11469,7 +11469,7 @@ p.lead {
   background-color: rgb(108,212,158);
 }
 
-.social-icon:hover i{
+.social-icon:hover .linkAbout{
   color: black;
 }
 

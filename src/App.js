@@ -1,6 +1,10 @@
 import './App.css';
 import fotoCv from "./img/fotoCvMatrix.png";
-import 'fa-icons';
+import { FaLinkedinIn, FaReact, FaNodeJs, FaSass, FaNpm, FaBootstrap} from "react-icons/fa";
+import { TbBrandGithub } from "react-icons/tb";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io"
 
 function App() {
 
@@ -82,8 +86,8 @@ function App() {
         integrar los conocimientos adquiridos y desarrollarme profesionalmente en un ambiente laboral interdisciplinario.
         Apasionado por la tecnología y el diseño.</p>
                     <div class="social-icons pt-3">
-                        <a class="social-icon" href="https://www.linkedin.com/in/alexis-bello-571478160/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in linkAbout"></i></a>
-                        <a class="social-icon" href="https://github.com/Beale1985" target="_blank" rel="noopener noreferrer"><i class="fab fa-github linkAbout"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/alexis-bello-571478160/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='linkAbout' /></a>
+                        <a class="social-icon" href="https://github.com/Beale1985" target="_blank" rel="noopener noreferrer"><TbBrandGithub className='linkAbout' /></a>
                     </div>
                 </div>
             </section>
@@ -160,14 +164,14 @@ function App() {
                     <h2 class="mb-5">Hablidades</h2>
                     <div class="subheading mb-3">Lenguajes y Herramientas</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item pb-0 pt-0 p-2"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item pb-0 pt-0 p-2"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item pb-0 pt-0 p-2"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item pb-0 pt-0 p-2"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item pb-0 pt-0 p-2"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item pb-0 pt-0 p-2"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item pb-0 pt-0 p-2"><i class="fab fa-npm"></i></li>
-                        <li class="list-inline-item pb-0 pt-0 p-2"><i class="fab fa-bootstrap"></i></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><AiFillHtml5 /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><DiCss3 /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><IoLogoJavascript /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><FaReact /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><FaNodeJs /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><FaSass /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><FaNpm /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><FaBootstrap /></li>
                     </ul>
                     <div class="subheading mb-3">Hablidades Blandas</div>
                     <ul class="fa-ul mb-0">
