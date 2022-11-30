@@ -4,7 +4,10 @@ import { FaLinkedinIn, FaReact, FaNodeJs, FaSass, FaNpm, FaBootstrap} from "reac
 import { TbBrandGithub } from "react-icons/tb";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io"
+import { IoLogoJavascript } from "react-icons/io";
+import { BsCheck } from "react-icons/bs";
+import { SiMysql } from "react-icons/si";
+import { FaGit } from "react-icons/fa"
 
 function App() {
 
@@ -54,12 +57,11 @@ function App() {
     <div className="App"  >
       <body id="page-top">
          {/* Navigation */}
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg bg-primary" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Alexis Bello</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" src={fotoCv} alt="..." /></span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre Mí</a></li>
@@ -70,7 +72,7 @@ function App() {
             </div>
         </nav>
         {/* Page Content */}
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" >
             {/* About */}
             <section class="resume-section" id="about">
                 <div class="resume-section-content about-container">
@@ -150,7 +152,7 @@ function App() {
                               <ul className='listEducation'>
                                 <li>Lectura - Intermedio</li>
                                 <li>Oral - Básico</li>
-                                <li>Escritura - Básico</li>
+                                <li>Escritura - Intermedio</li>
                               </ul>
                             </div>
                         </div>
@@ -172,35 +174,37 @@ function App() {
                         <li class="list-inline-item pb-0 pt-0 p-2"><FaSass /></li>
                         <li class="list-inline-item pb-0 pt-0 p-2"><FaNpm /></li>
                         <li class="list-inline-item pb-0 pt-0 p-2"><FaBootstrap /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><SiMysql /></li>
+                        <li class="list-inline-item pb-0 pt-0 p-2"><FaGit /></li>
                     </ul>
                     <div class="subheading mb-3">Hablidades Blandas</div>
                     <ul class="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="fa-li"><BsCheck /></span>
                             Comunicación Clara
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="fa-li"><BsCheck /></span>
                             Trabajo en equipo
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="fa-li"><BsCheck /></span>
                             Adaptación al cambio
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="fa-li"><BsCheck /></span>
                             Gestión de tiempo
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="fa-li"><BsCheck /></span>
                             Responsabilidad
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="fa-li"><BsCheck /></span>
                             Resolución de problemas
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="fa-li"><BsCheck /></span>
                             Habilidades interpersonales
                         </li>
                     </ul>
