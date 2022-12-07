@@ -76,6 +76,39 @@
   }
 }
 
+#holaMundo{
+  margin: auto auto 20px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: initial;
+  
+}
+
+.firstText {
+  width: 20.5ch;
+  animation:  2s steps(20) typing forwards,
+  infinite step-end .5s blink alternate backwards ;
+}
+
+@keyframes typing {
+  from {width: 0;
+  }
+  to {
+    visibility: visible !important;
+  }
+}
+
+@keyframes blink {
+  0%{border-right: 3px solid rgb(108,212,158)}
+  50%{border-right: transparent}
+}
+
+@keyframes apear {
+  from{opacity: 0}
+  to{opacity: 100}
+}
+
 #Matrix{
   position: fixed;
   top: 0%;
@@ -95,6 +128,7 @@
   left: 25%;
   width: 75vw;
   height: 100vh;
+  text-align: center
 }
 
 #experience{
@@ -105,9 +139,17 @@
   height: 100vh
 }
 
-#education{
+#portfolio{
   position: absolute;
   top: 200vh;
+  left: 25%;
+  width: 75vw;
+  height: 100vh
+}
+
+#education{
+  position: absolute;
+  top: 300vh;
   width: 75vw;
   left: 25%;
   height: 100vh
@@ -115,7 +157,7 @@
 
 #skills{
   position: absolute;
-  top: 300vh;
+  top: 400vh;
   width: 75vw;
   left: 25%;
   height: 100vh
@@ -11364,7 +11406,7 @@ p.lead {
   font-family: monospace;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 392px) {
@@ -11451,7 +11493,7 @@ p.lead {
   }
   #sideNav .navbar-brand {
     display: flex;
-    margin: auto auto 0;
+    margin: 0 auto 0;
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
@@ -11501,6 +11543,14 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px ;
+}
+
+.textoIconos{
+  font-size: 13px;
+  justify-content: center;
 }
 
 section.resume-section {

@@ -52,20 +52,28 @@ function App() {
     };
     setInterval(draw, 40);
 
+    // "homepage": "https://Beale1985.github.io/portfolio-home",
+
+    // "predeploy": "npm run build",
+    // "deploy": "gh-pages -d build",
+
 
   return (
     <div className="App"  >
       <body id="page-top">
          {/* Navigation */}
         <nav class="navbar navbar-expand-lg bg-primary" id="sideNav">
+                <span className='firstText' id='holaMundo'>
+                    Knock, Knock, World!
+                </span>
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Alexis Bello</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" src={fotoCv} alt="..." /></span>
             </a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre Mí</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portafolio</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educación</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
                 </ul>
@@ -81,12 +89,13 @@ function App() {
                         <span class="text-primary"> Bello</span>
                     </h1>
                     <div class="subheading mb-5">
-                        San Luis 2428 · Ciudad Autónoma de Bs. As. ·  (+54) 11-69559766 ·
-                        <a href="mailto:alexisbello0310@hotmail.com">alexisbello0310@hotmail.com</a>
+                        San Luis 2428 · CABA ·  (+54) 11-69559766 ·
+                        <a href="mailto:alexisbello0310@hotmail.com">alexisbello0310@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">En búsqueda laboral activa, con el objetivo de 
-        integrar los conocimientos adquiridos y desarrollarme profesionalmente en un ambiente laboral interdisciplinario.
-        Apasionado por la tecnología y el diseño.</p>
+                    <p class="lead mb-5">Full Stack Developer y Arquitecto, apasionado por la tecnología y el diseño.
+                        Actualmente desarrollando sitios web de manera independiente, en búsqueda laboral activa, si queres conocerme 
+                        no dudes en contactarme.  </p>
+                    <p>HTML | CSS | Bootstrap | Sass | JavaScript | React Js | GitHub | Node js | MySql</p>
                     <div class="social-icons pt-3">
                         <a class="social-icon" href="https://www.linkedin.com/in/alexis-bello-571478160/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='linkAbout' /></a>
                         <a class="social-icon" href="https://github.com/Beale1985" target="_blank" rel="noopener noreferrer"><TbBrandGithub className='linkAbout' /></a>
@@ -100,18 +109,16 @@ function App() {
                     <h2 class="mb-5">Experiencia</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Full Stack Developer</h3>
+                            <h3 class="mb-0">Full Stack Developer </h3> <spam class="text-primary">Febrero 2022 - Presente</spam>
                             <p>Al finalizar el curso de Full Stack Developer en Digital House decidí dedicarme
-                                fulltime al desarrollo de sitios web. Comencé diseñando una página de prsentación de productos
-                                y tratamientos para un centro de estética. En la actualidad me encuentro desarrollando un sitio 
-                                que permite realizar búsquedas de marcas y productos de estética para el mismo cliente.
-                                Aprobé el Prep Course de SoyHenry y tengo fecha de inicio del Bootcamp para 05/12/2022.</p>
+                                fulltime al desarrollo de sitios web. En la actualidad me encuentro desarrollando un portafolio
+                                personal de trabajos realizados y servicios ofrecidos como arquitecto.
+                                </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Febrero 2022 - Presente</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Arquitecto</h3>
+                            <h3 class="mb-0">Arquitecto</h3> <spam class="text-primary">Febrero 2011 - Presente</spam>
                             <p>De manera conjunta al trabajo en relación de dependecia me he desarrollado como arquitecto 
                                 independiente, realizando proyectos de obra, remodelaciones y direcciones de obra. Mi trabajo
                                 como arquitecto depende de la mano de obra que la realiza, orgulloso de contar con el mismo 
@@ -122,7 +129,37 @@ function App() {
                                   <li>-Tecnópolis- Jul 2011 / Abr 2012</li>
                                 </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Febrero 2011 - Presente</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            {/* portfolio */}
+            <section class="resume-section" id="portfolio">
+                <div class="resume-section-content experience-container">
+                    <h2 class="mb-5">Portafolio</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cosmetear.com </h3> <spam class="text-primary">Agosto 2022 - Presente</spam>
+                            <p>Es un sitio web destinado a realizar búsquedas de productos y marcas de estética, permite filtrar por nombre,
+                                categorías, certificado cruelty free, certificado vegano y procedencia. El sitio está desarrollado con las
+                                siguientes tecnologías: JavaScript | React Js | MySql | Css | HTML | GitHub.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">DraCintia.com </h3> <spam class="text-primary">Julio 2022 - Presente</spam>
+                            <p>Un sitio web estático, responsive, donde se presenta un Centro de Estética y sus tratamientos. Permite contactar
+                                al Centro por medio de WhatsApp para reservar turnos y cuenta la historia de sus inicios.
+                                Tecnologías utilizadas: React Js | JavaScript | Bootsrap | Css | GitHub.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">DrinkHouse.com </h3> <spam class="text-primary">Julio 2022 - Presente</spam>
+                            <p>Durante la cursada en Digital House se desarrolló un proyecto integrador del tipo e-commerce donde se aplicaron
+                                todas las herramientas aprendidas. El sitio web tiene por destino la venta de bebidas alchoolicas, permitiendo
+                                a los usuarios registrarse, loguearse y buscar productos por categorias. Tecnologías utilizadas: JavaScript | Css | HTML | MySql | MCV | Middleware | Cookie | GitHub | SCRUM. </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -165,6 +202,18 @@ function App() {
                 <div class="resume-section-content skills-container">
                     <h2 class="mb-5">Hablidades</h2>
                     <div class="subheading mb-3">Lenguajes y Herramientas</div>
+                    <ul class="list-inline dev-icons textoIconos">
+                        <li class="list-inline-item pb-0 pt-0 p-2">HTML |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">CSS |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">JavaScript |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">React Js |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">Node Js |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">Sass |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">Npm |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">Bootstrap |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">MySql |</li>
+                        <li class="list-inline-item pb-0 pt-0 p-2">GitHub</li>
+                    </ul>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item pb-0 pt-0 p-2"><AiFillHtml5 /></li>
                         <li class="list-inline-item pb-0 pt-0 p-2"><DiCss3 /></li>
